@@ -4,10 +4,17 @@ body{
     margin: 0;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
+.multiply{
+    font-size: 2.2rem;
+    color: cadetblue;
+}
+
+
 
 .form{
     margin: 1rem;
@@ -15,6 +22,10 @@ body{
     padding: 2rem;
     border-radius: 2rem;
     box-shadow: 0px 4px 8px rgba(0,0,0,0.5);
+}
+.score{
+    color: rgb(217, 97, 32);
+    text-align: end;
 }
 .input{
     display: block;
@@ -32,10 +43,10 @@ body{
 }
 
 .btn{    
+    display: grid;
+    place-self: center;
     color: white;
-    background-color: rgb(108, 110, 208);
-    display: block;
-    
+    background-color: rgb(217, 97, 32);
     margin-top: 0.8rem ;
     padding: 1rem 4rem;
     border: none;
